@@ -50,7 +50,7 @@ After doing all the above necessary steps if all things goes fine then you have 
 <p><code>{"firstName" : "First Name", "middleName" : "", "lastName" : "Last Name", "mobileNo" : "1234567890", "email" : "test@email.com", "panNo" : "ABCDE1234F"}</code></p>
 
 ### Dummy JSON Object
-* Request Object pass through Command Prompt
+* Request Object pass in the Body of Postman
 { 
     "firstName" : "First Name",
     "middleName" : "", 
