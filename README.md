@@ -51,6 +51,8 @@ After doing all the above necessary steps if all things goes fine then you have 
 
 ### Dummy JSON Object
 * Request Object pass in the Body of Postman
+<p>
+<code>
 { 
     "firstName" : "First Name",
     "middleName" : "", 
@@ -59,3 +61,5 @@ After doing all the above necessary steps if all things goes fine then you have 
     "email" : "test@email.com", 
     "panNo" : "ABCDE1234F" 
 }
+</code>
+</p>
