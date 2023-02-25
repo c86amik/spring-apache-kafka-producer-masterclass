@@ -7,7 +7,7 @@
 * [Spring tool Suite](https://spring.io/tools) or [Eclipse](https://www.eclipse.org/downloads/packages/)
 * [Apache Maven](https://maven.apache.org/download.cgi)
 * [Git Bash](https://gramfile.com/git-bash-download/)
-* [Scala](https://kafka.apache.org/downloads) - Download the Latest Version. Latest Version - <strong>Scala 2.13</strong>
+* [Kafka](https://kafka.apache.org/downloads) - Download the Latest Version. Latest Version - <strong>Kafka 2.13</strong>
 * [Postman](https://www.postman.com/downloads/)
 
 ### Install Kafka
