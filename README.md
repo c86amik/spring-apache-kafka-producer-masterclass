@@ -40,8 +40,8 @@ After doing all the above necessary steps if all things goes fine then you have 
 * Start the ZooKeeper - <p>`.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties`</p>
 * Start the Apache Kafka Server - <p>`.\bin\windows\kafka-server-start.bat .\config\server.properties`</p>
 * After that Right Click on the application, select the <strong>Run As</strong> option, and then select <strong>Spring Boot App</strong>
-* The application will start in the port <strong>7113</strong>
-* Open the Postman copy the URL as <strong>localhost:7113/kafka/produceJson</strong> and select the Method as <strong>POST</strong>. Click the Body tab in Postman, select the `raw` radiobutton and change the data type from `Text` to `JSON`. And paste the Body as mentioned in the [Dummy JSON Object](https://github.com/c86amik/spring-apache-kafka-producer-masterclass#dummy-json-object)
+* The application will start in the port <strong>7116</strong>
+* Open the Postman copy the URL as <strong>localhost:7116/kafka/produceJson</strong> and select the Method as <strong>POST</strong>. Click the Body tab in Postman, select the `raw` radiobutton and change the data type from `Text` to `JSON`. And paste the Body as mentioned in the [Dummy JSON Object](https://github.com/c86amik/spring-apache-kafka-producer-masterclass#dummy-json-object)
 * As it is a producer application, so to check whether the message is consumed or not.
 * Open the Command Prompt and start the Consumer - <p>`.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic springcavaj-topic --from-beginning`</p>
 * You will be able to see a message as it has consumed the data in the command prompt like this:
